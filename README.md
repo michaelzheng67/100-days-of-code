@@ -19,6 +19,10 @@ Some of the things I want to explore during this challenge include:
 - Kotlin
 - Ruby on Rails
 
+### Game Development
+- Pygame
+- Unity ??
+
 ### AI / Data Stuff
 - Machine learning & Deep learning libraries (e.g pytorch)
 - Webscraping for data
