@@ -1,0 +1,82 @@
+
+/* input */
+
+input {
+    caret-color: crimson;
+}
+
+
+/* Text */
+
+h1, h2, h3, p {
+    color: grey;
+    text-align: center;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: darkred;
+}
+
+.rainbow-text {
+    color: white;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+
+/* navigation stuff */
+
+.navigation {
+    font-weight: bold;
+}
+
+.nav-list {
+    background-color: darksalmon;   
+}
+
+.nav-list_item {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-list_item:hover {
+    color: darkseagreen;
+}
+
+
+
+/* Lists */
+
+ul, ol {
+    display: table;
+    margin: 0 auto;
+}
+
+
+/* image */
+
+.warren-buffett {
+    border: 5px solid blueviolet;
+    display: inline;
+}
+
+
+/* table */
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+
+
+/* canvas */
+canvas {
+    display: block;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    margin: 50px 50px 50px 50px;
+}

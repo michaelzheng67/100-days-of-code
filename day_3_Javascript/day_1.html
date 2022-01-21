@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Michael Zheng" content="Simple Webpage">
+        <link rel="stylesheet" href="styles.css">
+        <script src="myscript.js"></script>
+        
+
+        <h1 id="header" onclick="differentcolour()"> Day 1: 100 Days of Code Challenge </h1>
+    </head>
+    <body>
+        <!-- Navigation. Doesn't actually link anywhere -->
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li><a class="nav-list_item" target="_blank" href="https://github.com/michaelzheng67">My Github</a></li>
+                <li><a class="nav-list_item" target="_blank" href="https://www.linkedin.com/in/michaelzheng-/">My Linkedin</a></li>
+                <li class="nav-list_item">Lights up but doesn't do anything</li>
+
+            </ul>
+        </nav>
+
+        <p class="rainbow-text"> For my first day of the challenge, I decided to create a simple webpage.
+            For day 2, I think I will work on CSS and actually make this page look (somewhat)
+            cool. </p>
+        
+        <br>
+
+        <h1 id="demo" onclick="replacetext()"><em>Disclaimer:</em> I'm not actually trying to make things "look good".
+        I'm just playing around with different features to see how they would look.</h1>
+
+        <p>Some comparison of what heading sizes look like:</p>
+        <h1 id="disappear" onmouseover="begone('disappear')">H1, obviously.</h1>
+        <h2>H2, slightly smaller</h2>
+        <h3>H3, smaller than that</h3>
+
+        <ul>
+            Unordered list of some of the things I like to do:
+            <li>Play Basketball</li>
+            <li>Code (when I'm motivated)</li>
+            <li>Read different genre non-fiction books</li>
+            <li>Long walks on the beach</li>
+        </ul>
+
+        <br>
+
+        <ol>
+            Ordered list of things that I don't like:
+            <li>Thunder and Lightning</li>
+            <li>Spiders</li>
+            <li>Clowns</li>
+        </ol>
+
+        <br>
+
+        <p> I'm starting to run out of ideas of what to write here. I'm just going to post 
+            a picture of Warren Buffett that you can click on to bring you to his Wiki page:
+        </p>
+
+        <br>
+
+        <!-- Warren Buffet -->
+        <a href='https://bit.ly/3tMuuLg' target="_blank">
+            <img src='https://bit.ly/3KnQfqD'
+                class="warren-buffett"
+                width="400"
+                height="400"
+                >
+        </a>
+
+        <button onmouseover="this.innerHTML = 'sike'"
+                onmouseout="this.innerHTML = 'try again'"
+        >Click Me!</button>
+
+
+
+        <!-- Random table of numbers 1 - 10 -->
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+        <form>
+            <input type="search" placeholder="Search for anything" >
+            <input type="submit" value="Submit">
+        
+        </form>
+
+        <!-- pixelated alphabet -->
+        <canvas></canvas>
+
+
+        <!-- Animated clock -->
+        <canvas id="canvas" width="300" height="300"></canvas>
+
+
+        <!-- animated progress bar -->
+        <progress id="elem"></progress>
+
+
+        <footer>
+            <p>Copyright by noone. No rights reserved.</p>
+        </footer>
+
+
+        
+
+
+   
+        
+
+
+    </body>
+    
+
+
+</html>
