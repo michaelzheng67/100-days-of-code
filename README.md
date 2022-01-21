@@ -9,7 +9,7 @@ Some of the things I want to explore during this challenge include:
 * I will mark these as completed as I progress *
 
 ### Web Development
-- HTML & CSS
+- HTML & CSS [x]
 - A few frameworks / techs I havent used (angular, vue, etc)
 - Database Stuff (test out some different types of databases?)
 
@@ -17,7 +17,7 @@ Some of the things I want to explore during this challenge include:
 - Scala
 - Go
 - Kotlin
-- Ruby on Rails
+- Typescript
 
 ### Game Development
 - Pygame
